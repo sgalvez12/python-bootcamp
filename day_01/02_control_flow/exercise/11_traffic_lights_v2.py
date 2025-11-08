@@ -6,3 +6,11 @@ color_input = input("Please enter a color: ")
 # "yellow"  -> print "Wait..."
 # "red"     -> print "Stop"
 # Everything else   -> print "Malfunction"
+if color_input == "green" :
+    print("Go")
+elif color_input == "yellow" :
+    print("Wait")
+elif color_input == "red" :
+    print("stop")
+else :
+    print("Malfunction")

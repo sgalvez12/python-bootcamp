@@ -1,6 +1,7 @@
-counter = 0
-print("Counter:", counter)
 
+ counter = 0
+print("Counter:", counter)
+n
 # TODO: Add one to the counter
 # TODO: Change code here
 print("Counter:", counter)

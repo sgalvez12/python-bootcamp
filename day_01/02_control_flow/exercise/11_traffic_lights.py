@@ -5,3 +5,12 @@ color_input = input("Please enter a color: ")
 # "green"   -> print "Go"
 # "yellow"  -> print "Wait..."
 # "red"     -> print "Stop"
+match color_input:
+    case "green" :
+        print("Go")
+    case "yellow" :
+        print("Wait")
+    case "red" :
+        print("Stop")
+    case _ :
+        print("malfunction")
