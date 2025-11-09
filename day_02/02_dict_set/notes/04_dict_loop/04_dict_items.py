@@ -5,5 +5,5 @@ student_records = {
 	"Elise": 80,
 }
 
-for student_name, student_score in student_records.items():
-	print(student_name, student_score)
+for name, score in student_records.items():
+	print(name, score)

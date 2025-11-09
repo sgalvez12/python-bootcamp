@@ -1,10 +1,19 @@
+from operator import itemgetter
+
+
 def add(inventory):
+    name = input("Enter Item: ")
+    info = input("Enter Info: ")
+    stock = int(input("Enter Stock: "))
+
+    item = {"name": name, "info": info, "stock": stock}
     """TODO:
         Ask for item name, info, and stock
         Create a dictionary with key: name, info, stock
         Add that dictionary to inventory
     """
 
+    inventory.append(item)
 
 def remove(inventory):
     """TODO:
@@ -30,13 +39,13 @@ def main():
     while running:
         command = input("Command: ")
         if command == "add":
-            # TODO: Use add command"""
+            add(inventory)
             pass
         elif command == "remove":
-            #  TODO: Use remove command"""
+           remove(inventory)
             pass
         elif command == "read":
-            # TODO: Use read command"""
+            print(inventory)
             pass
         elif command == "show":
             # TODO: Use show command"""
