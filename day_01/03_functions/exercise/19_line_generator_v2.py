@@ -6,8 +6,8 @@
 	Line number
 """
 def line_generator (number) :
-    for item in range (number):
-        print("Line", item + 1)
+    for item in range (1, number + 1):
+        print(f"Line {item}")
 
 # TODO: Use the function once
 line_generator(10)

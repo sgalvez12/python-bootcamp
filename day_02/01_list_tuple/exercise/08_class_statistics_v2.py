@@ -5,4 +5,4 @@ average_score = sum(student_scores) / len(student_scores)
 print(average_score)
 
 # TODO: Print the rankings, highest to lowest
-print(sorted(student_scores))
+print(sorted(student_scores, reverse = True))

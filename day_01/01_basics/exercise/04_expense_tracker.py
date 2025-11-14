@@ -1,7 +1,7 @@
 # TODO: Ask the user for three values
-expense_1 = input("enter a number: ")  # Let the user enter a number
-expense_2 = input()  # Let the user enter a number
-expense_3 = input()  # Let the user enter a number
+expense_1 = input("Expense 1: ")  # Let the user enter a number
+expense_2 = input("Expense 2: ")  # Let the user enter a number
+expense_3 = input("Expense 3: ")  # Let the user enter a number
 
 # TODO: Then, print each information one line at a time
 print(expense_1)

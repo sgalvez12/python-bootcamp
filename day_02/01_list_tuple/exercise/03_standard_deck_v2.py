@@ -2,6 +2,12 @@ ranks = ('A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K')
 suits = ("Hearts", "Diamonds", "Clubs", "Spades")
 cards = []
 
+
+for rank in ranks:
+    for suit in suits:
+        cards.append(f"{rank} of {suit}")
+        print(rank, "of", suit)
+
 # TODO: Create every possible pairing of ranks and suits
 #   And add it to the empty list of cards
 """ 

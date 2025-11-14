@@ -1,6 +1,6 @@
 def get_longest_word(text):
     """TODO: Add decoding process"""
-    longest_word = None
+    longest_word = ""
     return longest_word
 
 

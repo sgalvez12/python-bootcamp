@@ -1,20 +1,19 @@
 def product(v1, v2, v3=1):
-    result = v1 * v2 * v3
-    return result
+    return v1 * v2 * v3
+
     """ TODO: Takes three inputs (or two) and return"""
 
 # TODO: product(1, 1, 1)	# 1
-answer = product(1,1,1)
-print (answer)
+print(product(1,1,1))
 # TODO: product(1, 2, 3)
-answer = product(1,2,3)
-print (answer)
+print(product(1,2,3))
+
 # TODO: product(2, 5, 10)	# 100
-answer = product(2,5,10)
-print(answer)
+print(product(2,5,10))
+
 # TODO: product(3, 3)	    # 9
-answer = product(3,3)
-print(answer)
+print(product(3,3))
+
 # TODO: product(2, 5)	    # 12
-answer = product(2,5)
-print(answer)
+print(product(2,5))
+

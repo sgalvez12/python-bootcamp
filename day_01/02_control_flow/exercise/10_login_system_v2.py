@@ -1,5 +1,5 @@
 # Expected password (you can change the value)
-correct_password = "pass"
+correct_password = "Shirley"
 
 # Enter user password
 password_input = input("Please provide password: ")
