@@ -31,3 +31,8 @@ class Manager(Employee):
 
     def manage(self):
         self.add_work("manage")
+
+employee = Employee("John", "0002")
+recruiter = Recruiter("Mike", "0003")
+recruiter.add_work("admin")
+recruiter.recruit()

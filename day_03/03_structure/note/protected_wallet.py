@@ -15,5 +15,5 @@ class ProtectedWallet:
 
 
 budget = ProtectedWallet()
-budget.amount += 1000
-print("Budget:", budget.amount)
+budget._amount += 1000
+print("Budget:", budget._amount)

@@ -3,17 +3,29 @@ import tkinter
 root = tkinter.Tk()
 
 
-# TODO: Add label for instructions
-# TODO: Add entry for instructions
-# TODO: Add StringVar for instruction
-# TODO: Add label using StringVar
+label_var = tkinter.StringVar(root, value="Enter your password:")
+label = tkinter.Label(root, textvariable=label_var)
+label.pack(side="top")
 
-def check_password(event):
+entry_var = tkinter.StringVar(root, value="")
+entry = tkinter.Entry(root, textvariable=entry_var,show="*")
+entry.pack()
+
+label_var2 = tkinter.StringVar(root, value="Enter your password and press Enter: ")
+label2 = tkinter.Label(root, textvariable=label_var2)
+label2.pack()
+
+
+
+def check_password(event=None):
     correct_password = "pass"
+    if entry_var.get() == correct_password:
+        label_var2.set("Password correct. Access Granted!")
+    else:
+        label_var2.set("Incorrect password. Try again!")
 
-    # TODO: Check if entry.get() has correct value
 
 
-# TODO: Add key bindings for check_password
-
+button = tkinter.Button(root, text="Submit", command=check_password, fg="red")
+button.pack()
 root.mainloop()

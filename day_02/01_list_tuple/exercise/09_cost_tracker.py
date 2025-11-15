@@ -1,4 +1,4 @@
-from email.utils import UEMPTYSTRING
+from email.utils import EMPTYSTRING
 
 
 def spend(expenses):

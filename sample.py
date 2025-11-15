@@ -1,7 +1,10 @@
-def product(n1,n2, n3):
-    result = n1 * n2 * n3
-    return result
-
-product(1,2,3)
-print(result)
-
+import tkinter
+root = tkinter.Tk()
+check_value = tkinter.BooleanVar()
+checkbox = tkinter.Checkbutton(
+    root,
+    text="Enable",
+    variable=check_value
+)
+checkbox.pack()
+root.mainloop()

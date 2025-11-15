@@ -4,11 +4,12 @@ def create_deck():
     deck = []
     for rank in ranks:
         for suit in suits:
-            deck.append(f"{rank} of {deck}")
+            deck.append(f"{rank} of {suit}")
+
 
 def draw_top(deck):
     """TODO: Remove count return one card from the start from deck"""
-
+    for card in deck
 
 def draw_bottom(deck):
     """TODO: Remove and return one card from the end of the deck"""
@@ -39,3 +40,6 @@ def load(filename) -> list[str]:
 
 def save(deck, filename):
 	"""Challenge: TODO: Saves a list of cards into a file (retrievable with load)"""
+
+
+print(create_deck())
