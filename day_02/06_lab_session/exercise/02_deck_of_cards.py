@@ -1,6 +1,10 @@
 def create_deck():
-	"""TODO: Return a list of 52 strings containing a standard deck"""
-
+    ranks = ('A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K')
+    suits = ("Hearts", "Diamonds", "Clubs", "Spades")
+    deck = []
+    for rank in ranks:
+        for suit in suits:
+            deck.append(f"{rank} of {deck}")
 
 def draw_top(deck):
     """TODO: Remove count return one card from the start from deck"""
